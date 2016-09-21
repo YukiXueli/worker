@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'jacoco'
 apply plugin: 'org.sonarqube'
 
-def androidSupportVersion = '24.1.1'
+def androidSupportVersion = '23.2.1'
 
 def advancedrecyclerviewVersion = "0.9.1"
 def eventbusVersion = "3.0.0"
@@ -30,7 +30,7 @@ Closure<String> getVersionNameFromTag = {
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.0"
+    buildToolsVersion "24.0.2"
 
     defaultConfig {
         applicationId "me.raatiniemi.worker"
